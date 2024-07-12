@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SQL Agent Query Interface</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    .container {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+    .form-group {
+        margin-bottom: 10px;
+    }
+    .form-group label {
+        font-weight: bold;
+    }
+    .form-group textarea, .form-group input[type="file"] {
+        width: 100%;
+        padding: 5px;
+        font-size: 14px;
+    }
+    .btn {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .btn:hover {
+        background-color: #45a049;
+    }
+    .result {
+        margin-top: 20px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h2>Upload CSV to Initialize SQL Agent</h2>
+    <div class="form-group">
+        <label for="csvFile">Upload your CSV file:</label>
+        <input type="file" id="csvFile" name="csvFile" accept=".csv" required>
+    </div>
+    <button class="btn" onclick="uploadCSV()">Upload CSV</button>
+    <div class="result" id="uploadResult">
+        <!-- Upload result will be displayed here -->
+    </div>
+
+    <h2>SQL Agent Query Interface</h2>
+    <div class="form-group">
+        <label for="query">Enter your query:</label>
+        <textarea id="query" name="query" placeholder="Example: What items are available in the store related to dairy?" required></textarea>
+    </div>
+    <button class="btn" onclick="submitQuery()">Submit Query</button>
+    <div class="result" id="queryResult">
+        <!-- Results will be displayed here -->
+    </div>
+</div>
+
+<script>
+function uploadCSV() {
+    const csvFile = document.getElementById('csvFile').files[0];
+    if (!csvFile) {
+        alert('Please select a CSV file to upload.');
+        return;
+    }
+    
+    const formData = new FormData();
+    formData.append('csvFile', csvFile);
+    
+    fetch('/upload_csv', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then(data => {
+        console.log('Data received:', data); // Check the data received
+        const uploadResultDiv = document.getElementById('uploadResult');
+        uploadResultDiv.innerHTML = `<p>${data.message}</p>`;
+        
+        // Optionally, you can redirect to the query section or clear the form
+        document.getElementById('csvFile').value = ''; // Clear the file input
+        alert('CSV uploaded successfully. You can now submit queries.');
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('Error uploading CSV. Please try again.');
+    });
+}
+
+function submitQuery() {
+    const query = document.getElementById('query').value.trim();
+    if (query === '') {
+        alert('Please enter a query.');
+        return;
+    }
+    
+    fetch('/query', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            queries: [query]
+        })
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then(data => {
+        console.log('Data received:', data); // Check the data received
+        const resultDiv = document.getElementById('queryResult');
+        resultDiv.innerHTML = `<h3>Query Result:</h3><p>${data.results[0].output}</p>`;
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('Error fetching data. Please try again.');
+    });
+}
+</script>
+
+</body>
+</html>
