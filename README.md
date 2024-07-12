@@ -9,8 +9,26 @@ requirements.txt lists all the Python dependencies required to run the SQLQueryB
 # sample_data.csv:
 sample_data.csv is an example CSV file that can be used to test the application. It contains sample data to demonstrate how SQLQueryBot processes and queries the uploaded CSV data.
 # Technologies Used
-Flask: For the web framework.
-Pandas: For CSV data manipulation.
-SQLAlchemy: For database interactions.
-OpenAI GPT-3.5-turbo: For converting natural language queries into SQL commands.
-JavaScript: For handling file uploads and query submissions.
+**Flask**: For the web framework.
+**Pandas:** For CSV data manipulation.
+**SQLAlchemy: **For database interactions.
+**OpenAI GPT-3.5-turbo: **For converting natural language queries into SQL commands.
+**JavaScript:** For handling file uploads and query submissions.
+
+## Steps to Run This Project
+
+**Clone the Repository:**
+   
+   git clone https://github.com/your_username/SQLQueryBot.git
+   cd SQLQueryBot
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   pip install -r requirements.txt
+   export OPENAI_API_KEY="your_openai_api_key"  # On Windows, use `set OPENAI_API_KEY=your_openai_api_key`
+   python app.py
+
+
+
+
+
+This `README.md` provides a comprehensive overview of the project, instructions for setting it up and running it, descriptions of the key files, and additional project details.
