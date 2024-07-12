@@ -19,7 +19,7 @@ sample_data.csv is an example CSV file that can be used to test the application.
 
 **Clone the Repository:**
    
-   git clone https://github.com/your_username/SQLQueryBot.git
+   git clone https://github.com/bilal443makik/SQLQueryBot.git
 
    cd SQLQueryBot
 
