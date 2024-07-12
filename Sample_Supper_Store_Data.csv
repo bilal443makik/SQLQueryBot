@@ -1,0 +1,126 @@
+itemName,Item-Subcategory,Price (USD),Promotion,BranchName,Rak-Location
+Red Delicious Apples,Produce,2.49,None,Central,Aisle 3
+Gallon Milk,Dairy,3.99,2 for $7,West,Fridge
+Ground Beef,Meat,4.59,None,Central,Butcher Shop
+Package of Hot Dogs,Meat,5.29,Buy 1 Get 1 50% Off,East,Freezer
+White Bread,Bakery,2.29,None,Central,Bakery
+Dozen Eggs,Dairy,2.99,None,West,Fridge
+Box of Cereal,Breakfast,3.79,None,East,Aisle 1
+Instant Coffee,Coffee & Tea,5.99,None,Central,Aisle 4
+Green Bell Peppers,Produce,1.79,None,East,Aisle 3
+Gala Apples,Produce,2.99,None,West,Aisle 3
+Bag of Oranges,Produce,3.49,None,Central,Aisle 3
+"Boneless, Skinless Chicken Breasts",Meat,5.99,None,West,Butcher Shop
+Sliced Ham,Deli,7.49,None,East,Deli Counter
+Shredded Cheese,Dairy,3.29,None,Central,Fridge
+Yogurt Cups (6 Pack),Dairy,4.99,None,West,Fridge
+Paper Towels,Cleaning Supplies,3.49,Buy 2 Get 1 Free,East,Aisle 7
+Laundry Detergent,Cleaning Supplies,6.99,None,Central,Aisle 7
+All-Purpose Cleaner,Cleaning Supplies,4.29,None,West,Aisle 7
+Dish Soap,Cleaning Supplies,2.79,None,East,Aisle 7
+Trash Bags,Cleaning Supplies,5.49,None,Central,Aisle 7
+Facial Tissue,Personal Care,2.99,None,West,Aisle 5
+Cotton Pads,Personal Care,3.49,None,Central,Aisle 5
+Shampoo & Conditioner (Set),Personal Care,9.99,None,East,Aisle 5
+Toothpaste,Personal Care,4.29,None,Central,Aisle 5
+Body Wash,Personal Care,5.79,None,West,Aisle 5
+Razors,Personal Care,7.99,None,East,Aisle 5
+Deodorant,Personal Care,3.99,None,Central,Aisle 5
+Canned Soup,Canned Goods,1.49,None,West,Aisle 2
+Pasta Sauce,Canned Goods,2.29,None,Central,Aisle 2
+Diced Tomatoes,Canned Goods,0.99,None,East,Aisle 2
+Canned Beans,Canned Goods,1.29,None,Central,Aisle 2
+Tuna in Water,Canned Goods,1.99,BOGO (Buy One Get One Free),West,Aisle 2
+Peanut Butter,Spreads,3.49,None,East,Aisle 6
+Napkins (Bulk Pack),Party Supplies,4.99,None,West,Aisle 10
+Jam,Spreads,2.99,None,Central,Aisle 6
+Mayonnaise,Spreads,2.79,None,West,Aisle 6
+Ketchup,Spreads,1.99,None,East,Aisle 6
+Mustard,Spreads,1.49,None,Central,Aisle 6
+BBQ Sauce,Spreads,2.29,None,West,Aisle 6
+Bottled Water (12 Pack),Beverages,4.99,None,East,Aisle 9
+Soda (2 Liter),Beverages,1.99,None,Central,Aisle 9
+Sports Drink (1 Liter),Beverages,1.49,None,West,Aisle 9
+Orange Juice (Gallon),Beverages,3.99,None,East,Aisle 9
+Coffee (Ground),Coffee & Tea,7.99,None,Central,Aisle 4
+Black Tea Bags,Coffee & Tea,3.49,None,West,Aisle 4
+Green Tea Bags,Coffee & Tea,4.29,None,East,Aisle 4
+Box of Pasta,Pasta & Rice,1.29,None,Central,Aisle 1
+White Rice (5lb Bag),Pasta & Rice,4.49,None,West,Aisle 1
+Brown Rice (5lb Bag),Pasta & Rice,5.29,None,East,Aisle 1
+Oatmeal,Breakfast,2.99,None,Central,Aisle 1
+Granola,Breakfast,4.99,None,West,Aisle 1
+Frozen Pizza,Frozen Foods,5.99,None,East,Freezer
+Ice Cream (Pint),Frozen Foods,3.49,None,Central,Freezer
+Frozen Vegetables (Bag),Frozen Foods,2.79,None,West,Freezer
+Chicken Nuggets (Bag),Frozen Foods,6.99,None,East,Freezer
+Fish Sticks (Box),Frozen Foods,4.29,None,Central,Freezer
+Bar Soap,Personal Care,1.99,None,West,Aisle 5
+Body Lotion,Personal Care,5.49,None,East,Aisle 5
+Shampoo,Personal Care,3.99,None,Central,Aisle 5
+Conditioner,Personal Care,4.29,None,West,Aisle 5
+Shaving Cream,Personal Care,2.79,None,East,Aisle 5
+Toothbrush,Personal Care,3.49,None,Central,Aisle 5
+Dental Floss,Personal Care,2.99,None,West,Aisle 5
+Paper Plates,Party Supplies,2.49,None,East,Aisle 10
+Plastic Cups,Party Supplies,1.99,None,Central,Aisle 10
+Aluminum Foil (Roll),Kitchen Supplies,2.99,None,East,Aisle 8
+Plastic Wrap (Box),Kitchen Supplies,3.49,None,Central,Aisle 8
+Parchment Paper (Roll),Kitchen Supplies,1.99,None,West,Aisle 8
+Freezer Bags (Box),Kitchen Supplies,2.79,None,East,Aisle 8
+Trash Can Liners (Box),Kitchen Supplies,4.29,None,Central,Aisle 8
+Dish Cloths (Pack),Kitchen Supplies,3.99,None,West,Aisle 8
+Dish Towels (Set),Kitchen Supplies,5.49,None,East,Aisle 8
+Sponges (Pack),Kitchen Supplies,2.49,None,Central,Aisle 8
+Dish Soap (Liquid),Cleaning Supplies,2.29,None,West,Aisle 7
+All-Purpose Cleaner (Spray),Cleaning Supplies,3.99,None,East,Aisle 7
+Disinfecting Wipes,Cleaning Supplies,4.49,None,Central,Aisle 7
+Toilet Paper (Bulk Pack),Cleaning Supplies,7.99,None,West,Aisle 7
+Laundry Basket,Cleaning Supplies,9.99,None,East,Aisle 7
+Ironing Board,Cleaning Supplies,14.99,None,Central,Aisle 7
+Vacuum Cleaner (Bagged),Cleaning Supplies,99.99,None,West,Aisle 7
+Mop & Bucket,Cleaning Supplies,19.99,None,East,Aisle 7
+Baking Soda,Baking Goods,0.99,None,Central,Aisle 6
+Powdered Sugar,Baking Goods,1.49,None,West,Aisle 6
+Brown Sugar (Light),Baking Goods,1.99,None,East,Aisle 6
+Brown Sugar (Dark),Baking Goods,2.29,None,Central,Aisle 6
+Vanilla Extract,Baking Goods,7.99,None,West,Aisle 6
+Chocolate Chips (Bag),Baking Goods,3.49,None,East,Aisle 6
+Sprinkles,Baking Goods,2.99,None,Central,Aisle 6
+Cake Mix,Baking Goods,2.49,None,West,Aisle 6
+Frozen Peas (Bag),Frozen Foods,1.79,None,East,Freezer
+Corn (Frozen),Frozen Foods,1.49,None,Central,Freezer
+Breaded Chicken Tenders,Frozen Foods,7.99,None,West,Freezer
+Tater Tots (Frozen),Frozen Foods,2.99,None,East,Freezer
+French Fries (Frozen),Frozen Foods,3.29,None,Central,Freezer
+Onion Rings (Frozen),Frozen Foods,4.49,None,West,Freezer
+Ice Cream (Tub),Frozen Foods,5.99,None,East,Freezer
+Salad Dressing (Bottle),Condiments,2.49,None,East,Aisle 6
+Olive Oil (Bottle),Condiments,5.99,None,Central,Aisle 6
+Vinegar (Bottle),Condiments,1.99,None,West,Aisle 6
+Ketchup (Large Bottle),Condiments,2.99,None,East,Aisle 6
+Mustard (Large Jar),Condiments,2.29,None,Central,Aisle 6
+Mayonnaise (Large Jar),Condiments,3.49,None,West,Aisle 6
+Hot Sauce (Bottle),Condiments,1.49,None,East,Aisle 6
+Soy Sauce (Bottle),Condiments,1.99,None,Central,Aisle 6
+BBQ Sauce (Large Bottle),Condiments,3.29,None,West,Aisle 6
+Aluminum Foil (Box),Kitchen Supplies,4.99,None,East,Aisle 8
+Plastic Wrap (Large Roll),Kitchen Supplies,5.49,None,Central,Aisle 8
+Wax Paper (Box),Kitchen Supplies,2.29,None,West,Aisle 8
+Sandwich Bags (Box),Kitchen Supplies,2.99,None,East,Aisle 8
+Ziploc Bags (Box),Kitchen Supplies,3.49,None,Central,Aisle 8
+Aluminum Baking Pans,Kitchen Supplies,4.29,None,West,Aisle 8
+Mixing Bowls (Set),Kitchen Supplies,9.99,None,East,Aisle 8
+Measuring Cups & Spoons,Kitchen Supplies,5.99,None,Central,Aisle 8
+Aluminum Foil (Heavy Duty),Kitchen Supplies,3.99,None,West,Aisle 8
+Microwave Popcorn (Bags),Snacks,2.49,Buy 1 Get 1 Free,East,Aisle 11
+Potato Chips (Large Bag),Snacks,3.29,None,Central,Aisle 11
+Pretzels (Bag),Snacks,1.99,None,West,Aisle 11
+Candy Bars (Variety Pack),Snacks,4.99,None,East,Aisle 11
+Cookies (Box),Snacks,2.99,None,Central,Aisle 11
+Gummy Bears (Bag),Snacks,1.49,None,West,Aisle 11
+Trail Mix (Bag),Snacks,3.49,None,East,Aisle 11
+Granola Bars (Box),Snacks,2.29,None,Central,Aisle 11
+Beef Jerky (Bag),Snacks,5.99,None,West,Aisle 11
+Disposable Plates (Pack),Party Supplies,3.49,None,East,Aisle 10
+Plastic Cutlery (Pack),Party Supplies,2.99,None,Central,Aisle 10
