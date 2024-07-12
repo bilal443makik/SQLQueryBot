@@ -20,11 +20,17 @@ sample_data.csv is an example CSV file that can be used to test the application.
 **Clone the Repository:**
    
    git clone https://github.com/your_username/SQLQueryBot.git
+
    cd SQLQueryBot
+
    python -m venv venv
+
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
    pip install -r requirements.txt
+
    export OPENAI_API_KEY="your_openai_api_key"  # On Windows, use `set OPENAI_API_KEY=your_openai_api_key`
+
    python app.py
 
 
